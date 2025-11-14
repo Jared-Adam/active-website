@@ -1,11 +1,39 @@
 ---
-title: "active-website"
+title: "Jared Adam"
+about:
+  template: jolla
+  image: "Head shot.jpg" 
+  id: "blank" 
+  links: 
+    - icon: github
+      text: Github
+      href: https://github.com/Jared-Adam
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/jared-adam-24b107241/
+    - icon: envelope-fill
+      text: Email
+      url: "mailto:jsadam0809@gmail.com"
+      
 ---
 
-This is a Quarto website.
+::: {#blank}
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
 
-```{r}
-1 + 1
-```
+:::
+
+## About Me
+
+At present, I am a PhD student of Dr. Will Wetzel ([Wetzel lab](https://wetzellab.com/)) in the Land Resources and Environmental Sciences program in the College of Agriculture at Montana State University. My interests include tri-tropic interactions (plant-herbivore-predator) and how these populations change with changes in elevation. Additionally, I am interested in how climate change may be driving asynchronous movement of these groups across elevations and how this effects plant, herbivore, and predator fitness. Within this framework, I investigate how herbivore tolerance and trait-based responses to abiotic stress lead to predicting plant fitness.
+
+My master's thesis with Dr. John Tooker ([Tooker lab](https://ento.psu.edu/research/labs/john-tooker)) broadly focused on Integrated Pest Management within conventional row crops. Please see the link to my defense for more information. The most notable project I am still active on (as of 2025) is called the Common Experiment 2 ([CE2](https://www.precisionsustainableag.org/ce2)) which is presently funded by a Precision Sustainable Agriculture grant through the USDA. The focus of this project is pest management of insects, weeds, and disease within conventional corn production and includes 16 collaborating Universities spanning the Southern to Midwestern US from Texas to Vermont. Within this project, my responsibilities include, but are not limited to, serving as the immediate contact for protocol/ entomology-based questions, managing the data flow and analyses for all entomology-related data from all collaborators, and working with the other project leads on the synthesis of each respective discipline. 
+
+
+## Education 
+
+<img src="Montana State University.png" alt="University logo" style="width:100px; height: auto; margin-right: 10px;"> **PhD Land Resources and Environmental Sciences**, 2024-present - *Montana State University*
+
+<img src="psu.png" alt="University logo" style="width:100px; height: auto; margin-right: 10px;"> **MSc Entomology**, 2022-2024 - *The Pennsylvania State University*
+
+<img src="psu.png" alt="University logo" style="width:100px; height: auto; margin-right: 10px;"> **BS Agroecology**, 2015-2019 - *The Pennsylvania State University* 
+
