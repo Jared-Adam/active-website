@@ -11,6 +11,9 @@ about:
     - icon: linkedin
       text: LinkedIn
       href: https://www.linkedin.com/in/jared-adam-24b107241/
+    - text: "Instagram"
+      icon: instagram
+      href: https://www.instagram.com/jaredsenecaadam/?next=%2F
     - icon: envelope-fill
       text: Email
       url: "mailto:jsadam0809@gmail.com"
@@ -23,6 +26,11 @@ about:
 :::
 
 ## About Me
+
+Hello and welcome to my website! My name is Jared Seneca Adam and I currently reside in Montana, where I spend most of my time running around the woods and clambering up rocks. I am considered an **Entomologist** by most, a **Quantitative Ecologist** by some, and in a former life, I was an **Agroecologist**. I am from a small town in Northeastern Pennsylvania, where I spent much of time wrestling, playing baseball, skateboarding, hunting, and fishing. By definition, I was a *bug kid*. ... 
+
+
+
 
 At present, I am a PhD student of Dr. Will Wetzel ([Wetzel lab](https://wetzellab.com/)) in the Land Resources and Environmental Sciences program in the College of Agriculture at Montana State University. My interests include tri-tropic interactions (plant-herbivore-predator) and how these populations change with changes in elevation. Additionally, I am interested in how climate change may be driving asynchronous movement of these groups across elevations and how this effects plant, herbivore, and predator fitness. Within this framework, I investigate how herbivore tolerance and trait-based responses to abiotic stress lead to predicting plant fitness.
 

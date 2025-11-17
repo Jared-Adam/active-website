@@ -1,0 +1,4 @@
+---
+title: "Personal photos and content"
+editor: visual
+---
