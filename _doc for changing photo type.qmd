@@ -1,0 +1,43 @@
+```{r}
+
+library(magick)
+library(tidyverse)
+
+
+# test <- list.files(path = "C:/Users/jsada/LOCAL_DOCUMENTS/repos/active-website/gallery",
+#                    pattern = "\\.heic$", 
+#                    full.names = TRUE)
+# 
+# imgs <- map(test, image_read)
+# 
+# img_resized <- map(imgs, ~image_resize(.x, "800x"))
+# 
+# imgs_jpg <- map(img_resized, ~image_convert(.x, format = 'jpg'))
+# 
+# output_files <- str_replace(test, "\\.heic$", ".jpg")
+# 
+# walk2(imgs_jpg, output_files, image_write) #original names
+
+# new names :: out_new_files <- sprintf("image_%02d.jpg", seq_along(imgs))
+
+
+# piped version of above 
+
+test <- list.files(path = "C:/Users/jsada/LOCAL_DOCUMENTS/repos/active-website/gallery",
+                   pattern = "\\.heic$", 
+                   full.names = TRUE)
+
+test %>% 
+  map(image_read) %>% 
+  map(image_resize, "800x") %>% 
+  map(image_convert, "jpg") %>% 
+  (\(imgs) walk2(
+    imgs, 
+    str_replace(test, "\\.heic$", ".jpg"), 
+    image_write))
+  ()
+
+
+
+
+```
