@@ -5,8 +5,12 @@ project:
     - "!internal/"
 
 website:
-  title: "Jared Adam"
+  # title: "Jared Adam"
   navbar:
+    search: true
+    title: false
+    logo: logo/logo.jpg
+    logo-alt: "Jared Adam"
     background: "#d8dfd8"
     pinned: false
     left:
@@ -41,7 +45,7 @@ website:
 format:
   html:
     theme: [cosmo, _light.scss]
-    #css: styles.css
+    css: styles.css
     #toc: true
 
 

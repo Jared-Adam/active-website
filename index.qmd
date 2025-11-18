@@ -11,9 +11,6 @@ about:
     - icon: linkedin
       text: LinkedIn
       href: https://www.linkedin.com/in/jared-adam-24b107241/
-    - text: "Instagram"
-      icon: instagram
-      href: https://www.instagram.com/jaredsenecaadam/?next=%2F
     - icon: envelope-fill
       text: Email
       url: "mailto:jsadam0809@gmail.com"
