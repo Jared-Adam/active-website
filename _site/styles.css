@@ -1,5 +1,82 @@
 /* css styles */
 
+/* -- Landing heading --*/
+
+div.gradient-text {
+  background: linear-gradient(
+    45deg,
+    #e8e3d3,
+    #4b2e83,
+    #4b2e83,
+    #757883,
+    #202020,
+    #007bc2,
+    #4b2e83,
+    #007bc2,
+    #757883,
+    #757883,
+    #202020,
+    #e8e3d3
+
+  );
+  background-size: 800%;
+  //font-weight: 900;
+//  font-size: 4.1rem;
+//  letter-spacing: -3px;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: animated_text 30s ease-in-out infinite;
+  -moz-animation: animated_text 30s ease-in-out infinite;
+  -webkit-animation: animated_text 30s ease-in-out infinite;
+}
+
+@keyframes animated_text {
+  0% {
+    background-position: 0px 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0px 50%;
+  }
+}
+
+.welcome-headline {
+  font-size: 3.1rem;
+  font-weight: 700;
+  letter-spacing: -2px;
+  line-height: 1;
+  margin-left: 0rem;
+  margin-right: 0rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+@media only screen and (max-width: 768px) {
+  .welcome-headline {
+    font-size: 2.1rem;
+
+  }
+}
+.welcome-subheadline {
+  font-size: 2.1rem; 
+  letter-spacing: 0px; 
+  line-height: 1; 
+  font-family:Economica; 
+  text-transform:uppercase;
+}
+
+@media only screen and (max-width: 768px) {
+  .welcome-subheadline {
+    font-size: 1.3rem;
+
+  }
+}
+
+
 /*-- navbar --*/
 
 .navbar {
@@ -18,7 +95,7 @@
   padding-top: 0;
   padding-bottom: 0;
   margin-right: 0;
-  margin-left: -3rem;
+  margin-left: 0rem;
 }
 
 @media (max-width: 767px) {
@@ -35,7 +112,7 @@
   }
 
 .nav-item {
-    margin-top: 5rem; 
+    margin-top: 0rem; 
   }
 
 @media (max-width: 991px) {
@@ -48,14 +125,20 @@
 .navbar-logo {
   max-height: 150px;
   width: auto;
-  align-items: baseline;
+  align-items: middle;
 }
 
 @media (max-width: 991px) {
 .navbar-logo {
   max-height: 100px;
   width: auto;
-  align-items: baseline;
+  align-items: middle;
 }
 }
 
+/* homepage */
+.content-container {
+  padding-left: 0em;
+  padding-right: 0em;
+  
+}
