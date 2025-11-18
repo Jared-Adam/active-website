@@ -9,7 +9,7 @@ website:
   navbar:
     search: true
     title: false
-    logo: logo/logo.jpg
+    logo: logo/trynow.jpg
     logo-alt: "Jared Adam"
     background: "#d8dfd8"
     pinned: false

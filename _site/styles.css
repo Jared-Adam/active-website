@@ -5,12 +5,8 @@
 .navbar {
   padding-top: 0;
   padding-bottom: 0;
-  font-size: 1em;
-  // font-family: 'Arsenal', sans-serif;
-  //font-family: 'Bebas Neue', sans-serif;
-   font-family: 'Economica', sans-serif;
-   text-transform: uppercase;
-  }
+  font-size: 1.25em;
+}
 
 /*quarto-header {
   /*border-bottom: 1px solid black; */
@@ -22,7 +18,7 @@
   padding-top: 0;
   padding-bottom: 0;
   margin-right: 0;
-  margin-left: 1.5em;
+  margin-left: -3rem;
 }
 
 @media (max-width: 767px) {
@@ -45,7 +41,7 @@
 @media (max-width: 991px) {
   .nav-item {
     margin-top: 0px;
-    margin-right: 0rem;
+    margin-right: 5rem;
 }
 }
 
@@ -62,3 +58,4 @@
   align-items: baseline;
 }
 }
+
