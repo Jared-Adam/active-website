@@ -46,7 +46,10 @@ website:
 
 format:
   html:
-    theme: [cosmo, _light.scss]
+    theme: 
+      - yeti 
+      - _light.scss
+    # mainfont: Nunito sans
     css: styles.css
     #toc: true
 
