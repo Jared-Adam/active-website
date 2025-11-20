@@ -6,16 +6,22 @@ div.gradient-text {
   background: linear-gradient(
     45deg,
     #e8e3d3,
-    #4b2e83,
-    #4b2e83,
-    #757883,
-    #202020,
-    #007bc2,
-    #4b2e83,
-    #007bc2,
-    #757883,
-    #757883,
-    #202020,
+    #332288,
+    #332288,
+    #117733,
+    #117733,
+    #44AA99,
+    #44AA99,
+    #88CCEE,
+    #88CCEE,
+    #DDCC77,
+    #DDCC77,
+    #CC6677,
+    #CC6677,
+    #AA4499,
+    #AA4499,
+    #882255,
+    #882255,
     #e8e3d3
 
   );
@@ -76,6 +82,33 @@ div.gradient-text {
   }
 }
 
+
+/* homepage */
+.content-container{
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+}
+
+.welcome {
+  max-width: 1000px;
+  margin: 0 auto;
+  margin-bottom: 1em;
+  box-sizing: border-box;
+  height: auto;
+  display: flex;
+  align-items: center;
+}
+
+.welcome img {
+  height: 100%;
+  object-fit: cover;
+}
+
+.cmm-background{
+  background-image: url('image.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 
 /*-- navbar --*/
 
