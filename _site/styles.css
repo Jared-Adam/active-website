@@ -55,7 +55,7 @@ div.gradient-text {
   font-weight: 700;
   letter-spacing: -2px;
   line-height: 1;
-  margin-left: 0rem;
+  margin-left: auto;
   margin-right: 0rem;
   margin-top: 2rem;
   margin-bottom: 2rem;
@@ -70,9 +70,7 @@ div.gradient-text {
 .welcome-subheadline {
   font-size: 2.1rem; 
   letter-spacing: 0px; 
-  line-height: 1; 
-  font-family:Economica; 
-  text-transform:uppercase;
+  line-height: 1;
 }
 
 @media only screen and (max-width: 768px) {
@@ -86,7 +84,7 @@ div.gradient-text {
 /* homepage */
 .content-container{
   padding-left: 1.5em;
-  padding-right: 1.5em;
+  padding-right: 5em;
 }
 
 .welcome {
@@ -96,16 +94,17 @@ div.gradient-text {
   box-sizing: border-box;
   height: auto;
   display: flex;
-  align-items: center;
+  align-items: left;
 }
 
 .welcome img {
   height: 100%;
+  width: 100%;
   object-fit: cover;
 }
 
 .cmm-background{
-  background-image: url('image.jpg');
+  background-image: url('logo/new.jpg');
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -115,7 +114,8 @@ div.gradient-text {
 .navbar {
   padding-top: 0;
   padding-bottom: 0;
-  font-size: 1.25em;
+  font-size: 1em;
+  height: 6em;
 }
 
 /*quarto-header {
@@ -158,16 +158,20 @@ div.gradient-text {
 .navbar-logo {
   max-height: 150px;
   width: auto;
-  align-items: middle;
+  align-items: center;
 }
 
 @media (max-width: 991px) {
 .navbar-logo {
   max-height: 100px;
   width: auto;
-  align-items: middle;
+  align-items: center;
 }
 }
+
+
+
+
 
 /* homepage */
 .content-container {
